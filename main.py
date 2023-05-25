@@ -33,20 +33,18 @@ modules = [
     Module("Betriebssysteme und Systemsoftware", 6, 2.0, Group.TECHNISCHE_INFORMATIK),
     #Module("Praktikum Systemprogrammierung", 8, None, Group.TECHNISCHE_INFORMATIK),
     Module("Datenkommunikation und Sicherheit", 6, 2.0, Group.TECHNISCHE_INFORMATIK),
-    Module("Grundlagen des Managment", 5, 1.0, Group.ANWENDUNGSFACH),
-    Module("Quantitative Methoden", 5, 1.7, Group.ANWENDUNGSFACH),
-    #Module("Entscheidungslehre", 6, 1.7, Group.ANWENDUNGSFACH),
-    #Module("Rechnungswesen", 6, 1.3, Group.ANWENDUNGSFACH),
+    Module("Entscheidungslehre", 6, 2, Group.ANWENDUNGSFACH),
+    Module("Rechnungswesen", 6, 1.0, Group.ANWENDUNGSFACH),
     #Module("Mentoring", 1, None, Group.SONSTIGE),
     Module("Einführung in das wissenschaftliche Arbeiten (Proseminar)", 3, 1.3, Group.SONSTIGE),
     #Module("Nicht-technisches Wahlfach", 4, None, Group.SONSTIGE),
-    Module("Seminar", 5, 1.0, Group.SONSTIGE),
+    Module("Seminar", 5, 2, Group.SONSTIGE),
     #Module("Software-Projektpraktikum", 6, None, Group.SONSTIGE),
-    Module("Bachelorarbeit und Kolloquium", 15, 1.0, Group.SONSTIGE),
+    Module("Bachelorarbeit und Kolloquium", 22.5, 1.7, Group.SONSTIGE),
     Module("Compiler Construction", 6, 2, Group.WAHLPFLICHT),
-    #Module("Introdution to Artificial Intelligence", 6, 1.3, Group.WAHLPFLICHT),
-    #Module("Wahlfach 3", 6, 1.3, Group.WAHLPFLICHT),
-    #Module("Wahlfach 4", 6, 1.3, Group.WAHLPFLICHT)
+    Module("Introdution to Artificial Intelligence", 6, 1.3, Group.WAHLPFLICHT),
+    Module("Statistische Klassifikation", 6, 4, Group.WAHLPFLICHT),
+    Module("Business Process Intelligence", 6, 2.7, Group.WAHLPFLICHT)
 ]
 
 def byGroup(modules, group):
